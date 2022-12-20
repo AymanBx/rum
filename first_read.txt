@@ -1,0 +1,436 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.3993' (creator: callgrind-3.18.1)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 1597785697
+Trigger: Program termination
+Profiled target:  ./target/release/rum ./rum-binaries/midmark.um (PID 3993, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir                      
+--------------------------------------------------------------------------------
+21,561,658,635 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                      file:function
+--------------------------------------------------------------------------------
+
+5,513,660,744 (25.57%)  *  src/main.rs:rum::main [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+2,628,780,198 (12.19%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_load (19,461,304x)
+2,447,701,574 (11.35%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_store (16,200,748x)
+  962,724,219 ( 4.46%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::map (1,414,834x)
+  424,679,686 ( 1.97%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::un_map (1,410,045x)
+  227,875,900 ( 1.06%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::loadv (32,553,700x)
+   78,564,398 ( 0.36%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::jump (3,571,109x)
+   60,142,460 ( 0.28%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::nand (4,295,890x)
+   40,833,520 ( 0.19%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::add (3,141,040x)
+   36,744,732 ( 0.17%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::c_mov (2,746,419x)
+    2,895,712 ( 0.01%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::div (170,336x)
+    1,363,895 ( 0.01%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::mul (104,915x)
+      213,161 ( 0.00%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumload.rs:rum::rumload::load (1x)
+       58,293 ( 0.00%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::output_val (181x)
+        2,246 ( 0.00%)  >   /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/process.rs:std::process::exit (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+          632 ( 0.00%)  >   /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/env.rs:std::env::args (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+          500 ( 0.00%)  >   /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:<std::collections::hash::map::HashMap<K,V> as core::convert::From<[(K,V); N]>>::from (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+3,232,679,837 (14.99%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs:rum::main
+
+2,552,115,660 (11.84%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:rum::main
+
+1,531,269,396 ( 7.10%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:rum::main
+
+  758,990,856 ( 3.52%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs:rum::rumops::s_load
+
+  615,628,424 ( 2.86%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+  544,916,512 ( 2.53%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:rum::rumops::s_load
+
+  486,532,600 ( 2.26%)  *  src/rumops.rs:rum::rumops::s_load [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+  453,620,944 ( 2.10%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+  425,352,610 ( 1.97%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:rum::main
+
+  425,352,610 ( 1.97%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/bitmask.rs:rum::main
+
+  421,219,448 ( 1.95%)  *  src/rumops.rs:rum::rumops::s_store [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+  350,792,034 ( 1.63%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:rum::rumops::s_load
+
+  340,282,088 ( 1.58%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/../../stdarch/crates/core_arch/src/x86/sse2.rs:rum::main
+
+  324,481,285 ( 1.50%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+  238,273,292 ( 1.11%)  < ./malloc/./malloc/malloc.c:free (2,803,858x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+       10,116 ( 0.00%)  < ./malloc/./malloc/malloc.c:_int_realloc (10x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  238,274,039 ( 1.11%)  *  ./malloc/./malloc/malloc.c:_int_free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+        9,143 ( 0.00%)  >   ./malloc/./malloc/malloc.c:malloc_consolidate (2x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+          125 ( 0.00%)  >   ./malloc/./malloc/malloc.c:systrim.constprop.0 (5x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+          101 ( 0.00%)  >   ./malloc/./malloc/malloc.c:unlink_chunk.constprop.0 (3x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+
+  227,875,900 ( 1.06%)  *  src/rumops.rs:rum::rumops::loadv [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+1,945,478,386 ( 9.02%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:rum::rumops::s_store (16,200,748x)
+  227,085,982 ( 1.05%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+  415,463,391 ( 1.93%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/sys/unix/alloc.rs:__rdl_alloc_zeroed (2,808,620x)
+          456 ( 0.00%)  < ???:0x0000000004890400 (2x) [???]
+  201,978,470 ( 0.94%)  *  ./malloc/./malloc/malloc.c:calloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  197,801,824 ( 0.92%)  >   ./malloc/./malloc/malloc.c:_int_malloc (2,808,622x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    7,257,687 ( 0.03%)  >   ???:0x0000000004890670 (345,591x) [???]
+
+  197,801,824 ( 0.92%)  < ./malloc/./malloc/malloc.c:calloc (2,808,622x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    2,040,239 ( 0.01%)  < ./malloc/./malloc/malloc.c:_int_realloc (7x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+        6,520 ( 0.00%)  < ./malloc/./malloc/malloc.c:malloc (25x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+          367 ( 0.00%)  < ./malloc/./malloc/malloc.c:tcache_init.part.0 (1x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  197,754,631 ( 0.92%)  *  ./malloc/./malloc/malloc.c:_int_malloc [/usr/lib/x86_64-linux-gnu/libc.so.6]
+    2,049,055 ( 0.01%)  >   ./malloc/./malloc/malloc.c:malloc_consolidate (12x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+       43,483 ( 0.00%)  >   ./malloc/./malloc/malloc.c:unlink_chunk.constprop.0 (1,940x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+        1,781 ( 0.00%)  >   ./malloc/./malloc/malloc.c:sysmalloc (12x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+
+  170,141,044 ( 0.79%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/cmp.rs:rum::main
+
+  170,141,044 ( 0.79%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/mod.rs:rum::main
+
+  170,141,044 ( 0.79%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/slice/index.rs:rum::main
+
+  155,990,912 ( 0.72%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:rum::rumops::s_load
+
+   97,677,908 ( 0.45%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/bitmask.rs:rum::rumops::s_load
+
+   97,554,698 ( 0.45%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/../../stdarch/crates/core_arch/src/x86/sse2.rs:rum::rumops::s_load
+
+   85,070,522 ( 0.39%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/intrinsics.rs:rum::main
+
+   81,349,512 ( 0.38%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/bitmask.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+   81,003,740 ( 0.38%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/mod.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+   78,564,398 ( 0.36%)  *  src/rumops.rs:rum::rumops::jump [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   66,066,058 ( 0.31%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs:hashbrown::map::HashMap<K,V,S,A>::remove
+
+   65,013,778 ( 0.30%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/../../stdarch/crates/core_arch/src/x86/sse2.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+   64,802,992 ( 0.30%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/ptr/mut_ptr.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+  308,369,296 ( 1.43%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/sys/unix/alloc.rs:__rdl_dealloc (2,803,854x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+          644 ( 0.00%)  < ???:0x0000000004890370 (7x) [???]
+   61,684,969 ( 0.29%)  *  ./malloc/./malloc/malloc.c:free [/usr/lib/x86_64-linux-gnu/libc.so.6]
+  238,273,292 ( 1.11%)  >   ./malloc/./malloc/malloc.c:_int_free (2,803,858x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+          105 ( 0.00%)  >   ./malloc/./malloc/malloc.c:munmap_chunk (3x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+
+   60,142,460 ( 0.28%)  *  src/rumops.rs:rum::rumops::nand [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   58,383,912 ( 0.27%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/mod.rs:rum::rumops::s_load
+
+   55,178,526 ( 0.26%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs:hashbrown::map::HashMap<K,V,S,A>::insert
+
+   72,255,965 ( 0.34%)  < /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:hashbrown::map::HashMap<K,V,S,A>::insert (1,414,834x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+           49 ( 0.00%)  < /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:<hashbrown::map::HashMap<K,V,S,A> as core::iter::traits::collect::Extend<(K,V)>>::extend (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   48,136,066 ( 0.22%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:hashbrown::raw::RawTable<T,A>::insert [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+    2,877,801 ( 0.01%)  >   /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:hashbrown::raw::RawTable<T,A>::reserve_rehash (13x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   42,445,020 ( 0.20%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:hashbrown::map::HashMap<K,V,S,A>::insert
+
+   40,468,228 ( 0.19%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:hashbrown::map::HashMap<K,V,S,A>::remove
+
+  248,943,962 ( 1.15%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:rum::rumops::map (1,414,834x)
+   39,863,652 ( 0.18%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:hashbrown::map::HashMap<K,V,S,A>::insert [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   72,255,965 ( 0.34%)  >   /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:hashbrown::raw::RawTable<T,A>::insert (1,414,834x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   39,481,260 ( 0.18%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:hashbrown::map::HashMap<K,V,S,A>::remove
+
+   38,922,608 ( 0.18%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/slice/index.rs:rum::rumops::s_load
+
+   37,692,480 ( 0.17%)  *  src/rumops.rs:rum::rumops::add [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   36,744,732 ( 0.17%)  *  src/rumops.rs:rum::rumops::c_mov [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   32,553,714 ( 0.15%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/alloc/src/alloc.rs:rum::main
+          273 ( 0.00%)  >   ???:__rust_dealloc (3x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   32,401,496 ( 0.15%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/option.rs:rum::rumops::s_store
+
+   32,401,496 ( 0.15%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/slice/index.rs:rum::rumops::s_store
+
+   30,789,580 ( 0.14%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/alloc/src/alloc.rs:rum::rumops::map
+  457,592,691 ( 2.12%)  >   ???:__rust_alloc_zeroed (2,808,620x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  156,050,072 ( 0.72%)  >   ???:__rust_dealloc (1,393,786x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   29,858,850 ( 0.14%)  *  src/rumops.rs:rum::rumops::map [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   28,086,200 ( 0.13%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/sys/unix/alloc.rs:__rdl_alloc_zeroed
+  415,463,391 ( 1.93%)  >   ./malloc/./malloc/malloc.c:calloc (2,808,620x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
+
+  213,841,816 ( 0.99%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:rum::rumops::un_map (1,410,045x)
+   24,018,020 ( 0.11%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:hashbrown::map::HashMap<K,V,S,A>::remove [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   22,279,212 ( 0.10%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:hashbrown::map::HashMap<K,V,S,A>::insert
+
+   19,521,400 ( 0.09%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/cmp.rs:rum::rumops::s_load
+
+   19,496,758 ( 0.09%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/intrinsics.rs:rum::rumops::s_load
+
+   16,255,850 ( 0.08%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/cmp.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+   16,235,879 ( 0.08%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/intrinsics.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
+
+   16,200,748 ( 0.08%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:rum::rumops::s_store
+1,945,478,386 ( 9.02%)  >   /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut (16,200,748x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+
+   15,537,261 ( 0.07%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/../../stdarch/crates/core_arch/src/x86/sse2.rs:hashbrown::map::HashMap<K,V,S,A>::remove
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: src/rumops.rs
+--------------------------------------------------------------------------------
+Ir                   
+
+          .           use std::io::{stdout, Write, stdin, Read};
+          .           use crate::{Machine, Umw};
+          .           
+          .           
+  5,492,838 ( 0.03%)  pub fn c_mov(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+ 10,985,676 ( 0.05%)      if um.registers[rc] != 0{
+ 14,773,380 ( 0.07%)          um.registers[ra] = um.registers[rb];
+          .               }
+  5,492,838 ( 0.03%)  }
+          .           
+ 97,306,520 ( 0.45%)  pub fn s_load(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+ 38,922,608 ( 0.18%)      let mem = um.memory.get(&((um.registers[rb]) as Umw)).unwrap();
+175,151,736 ( 0.81%)      um.registers[ra] = mem[um.registers[rc] as usize];
+116,767,824 ( 0.54%)  }
+          .           
+ 64,802,992 ( 0.30%)  pub fn s_store(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+ 64,802,992 ( 0.30%)      let mem = um.memory.get_mut(&((um.registers[ra]) as Umw)).unwrap();
+145,806,732 ( 0.68%)      mem[um.registers[rb] as usize] = um.registers[rc];
+ 81,003,740 ( 0.38%)  }
+          .           
+  3,141,040 ( 0.01%)  pub fn add(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+  9,423,120 ( 0.04%)      let b = um.registers[rb];
+  6,282,080 ( 0.03%)      let c = um.registers[rc];
+          .               let a = b.wrapping_add(c);
+  9,423,120 ( 0.04%)      um.registers[ra] =  a;
+  6,282,080 ( 0.03%)  }
+          .           
+    104,915 ( 0.00%)  pub fn mul(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+    314,745 ( 0.00%)      let b = um.registers[rb];
+    209,830 ( 0.00%)      let c = um.registers[rc];
+          .               let a = b.wrapping_mul(c);
+    314,745 ( 0.00%)      um.registers[ra] =  a;
+    209,830 ( 0.00%)  }
+          .           
+    170,336 ( 0.00%)  pub fn div(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+    851,680 ( 0.00%)      um.registers[ra] =
+  1,192,352 ( 0.01%)       um.registers[rb] / um.registers[rc];
+    340,672 ( 0.00%)  }
+          .           
+  4,295,890 ( 0.02%)  pub fn nand(um: &mut Machine, rc: usize, rb: usize, ra: usize){
+ 17,183,560 ( 0.08%)      um.registers[ra] =
+ 25,775,340 ( 0.12%)       !(um.registers[rb] & um.registers[rc]);
+  8,591,780 ( 0.04%)  }
+          .           
+ 11,318,672 ( 0.05%)  pub fn map(um: &mut Machine, rc: usize, rb: usize){
+  5,659,336 ( 0.03%)      let words = um.registers[rc];
+          .               let vals = vec![0_u32; words as usize];
+          .               let key = um.seg_counter;
+  1,414,834 ( 0.01%)      if um.unmapped.is_empty(){
+          .                   um.memory.insert(key, vals);
+     63,144 ( 0.00%)          um.registers[rb] = key;
+     42,096 ( 0.00%)          um.seg_counter += 1;
+          .               }
+          .               else{
+          .                   let seg = um.unmapped.pop().unwrap();
+  2,787,572 ( 0.01%)          um.memory.insert(seg, vec![0_u32; um.registers[rc].try_into().unwrap()]);
+  4,181,358 ( 0.02%)          um.registers[rb] = seg;
+          .               }  
+    168,384 ( 0.00%)  }
+          .           
+  7,050,225 ( 0.03%)  pub fn un_map(um: &mut Machine, rc: usize){
+  7,050,225 ( 0.03%)      um.unmapped.push(um.registers[rc]);
+          .               um.memory.remove(&um.registers[rc]).unwrap();
+          .           }
+          .           
+        543 ( 0.00%)  pub fn output_val(um: &Machine, rc: usize){
+        543 ( 0.00%)      let outputted_value = u8::try_from(um.registers[rc]).unwrap();
+        362 ( 0.00%)      let mut buffer = std::io::stdout();
+      1,417 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/io/stdio.rs:std::io::stdio::stdout (181x)
+        905 ( 0.00%)      match buffer.write(&[outputted_value]).unwrap(){
+     28,823 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/io/stdio.rs:<std::io::stdio::Stdout as std::io::Write>::write (181x)
+          .                   1 => {
+        724 ( 0.00%)              stdout().flush().unwrap();
+     21,537 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/io/stdio.rs:<std::io::stdio::Stdout as std::io::Write>::flush (181x)
+      1,267 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/io/stdio.rs:std::io::stdio::stdout (181x)
+          .                   },
+          .                   _ => { panic!("Wrong output value")}
+          .               }   
+        543 ( 0.00%)  }
+          .           
+          .           pub fn input_val(um: &mut Machine, rc: usize){
+          .               let mut buffer = [0_u8;1];
+          .               let mut input = stdin();
+          .               um.registers[rc] = match input.read(&mut buffer).
+          .               expect("Couldn't retrieve input.") {
+          .                   1 => {
+          .                       buffer[0] as u32
+          .                   }
+          .                   _ => {
+          .                       u32::MAX
+          .                   }
+          .               }
+          .           }
+          .           
+ 21,426,654 ( 0.10%)  pub fn jump(um: &mut Machine, rc: usize, rb: usize){
+ 14,284,436 ( 0.07%)      um.instruction_pointer = um.registers[rc] as usize;
+ 17,855,545 ( 0.08%)      if um.registers[rb] != 0{
+          .                   let new_prog = um.memory.get(&um.registers[rb]).unwrap().clone();
+          .                   let mem0 = um.memory.get_mut(&0).unwrap();
+          .                   *mem0 = new_prog;        
+          .               }
+ 21,426,654 ( 0.10%)  }
+          .           
+ 65,107,400 ( 0.30%)  pub fn loadv(um: &mut Machine, rl: usize, vl: usize){
+ 97,661,100 ( 0.45%)      um.registers[rl] = vl as u32;
+ 65,107,400 ( 0.30%)  }
+140,274,586 ( 0.65%)  <counts for unidentified lines in src/rumops.rs>
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: src/main.rs
+--------------------------------------------------------------------------------
+Ir                     
+
+            .           use std::{env, collections::HashMap, process::exit};
+            .           use rum::{rumload,Umw, Field, Machine, rumops::*, RA, RB, RC, RL, VL, OP, Opcode};
+            .           
+            .           
+1,398,900,086 ( 6.49%)  fn mask(bits: Umw) -> Umw { (1 << bits) - 1 }
+            .           
+            .           pub fn get(field: &Field, instruction: Umw) -> usize {
+1,248,722,164 ( 5.79%)      ((instruction >> field.lsb) & mask(field.width)) as usize
+            .           }
+            .           
+            .           ///
+            .           /// Create a mutable array of (u32) and a length of 8, “registers”, all initial values are 0.
+            .           /// Annotate a mutable variable: “instruction_pointer” of type (usize) and initial value 0.
+            .           /// Annotate a mutable variable: “seg_counter” of type (usize) with initial value 1, to 
+            .           /// hold the number of segments that are currently mapped (if none were unmapped).
+            .           /// Create a vector <u32> called “unmapped” that holds segment identifier for unmapped 
+            .           /// segments, to be reused in the future.
+            .           /// Create a mutable hashmap “segments” of keys (u32) and values (Vec<u32>), 
+            .           /// initialized with the segment 0, of key 0 and a vector that holds instructions (in u32 
+            .           /// code words) found in the file “program” that was passed to the initialize function.
+            .           /// Return all the initialized values
+            .           fn initialize() -> Machine {
+            2 ( 0.00%)      let input = env::args().nth(1);
+          632 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/env.rs:std::env::args (1x)
+            2 ( 0.00%)      let instructions: Vec<Umw> = rumload::load(input.as_deref());
+      213,161 ( 0.00%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumload.rs:rum::rumload::load (1x)
+            .               
+            .               let registers: [Umw; 8] = [0;8];
+           14 ( 0.00%)      let memory: HashMap<Umw, Vec<Umw>> = HashMap::from([(0, instructions)]);
+          500 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:<std::collections::hash::map::HashMap<K,V> as core::convert::From<[(K,V); N]>>::from (1x)
+            .               let unmapped: Vec<Umw> = vec![];
+            .               let instruction_pointer: usize = 0;
+            .               let seg_counter: Umw = 1;
+            .                
+           13 ( 0.00%)      Machine {registers, memory, unmapped, instruction_pointer, seg_counter}
+            .           }
+            .           
+            .           
+            8 ( 0.00%)  fn main() {
+            .               // Initialize a universal machine with the called binary
+            .               let mut um = initialize();
+            .           
+            .               loop {
+  425,352,610 ( 1.97%)          let instruction = um.memory.get(&0).unwrap()[um.instruction_pointer];
+  170,141,044 ( 0.79%)          um.instruction_pointer += 1;
+            .           
+  170,141,044 ( 0.79%)          let ra = get(&RA, instruction);
+  170,141,044 ( 0.79%)          let rb = get(&RB, instruction);
+  170,141,044 ( 0.79%)          let rc = get(&RC, instruction);
+   65,107,400 ( 0.30%)          let rl = get(&RL, instruction);
+   65,107,400 ( 0.30%)          let vl = get(&VL, instruction);
+            .                   
+  170,141,044 ( 0.79%)          match get(&OP, instruction) {
+            .                       
+  181,126,720 ( 0.84%)              o if o == Opcode::CMov as usize => { c_mov(&mut um, rc, rb, ra) }
+   36,744,732 ( 0.17%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::c_mov (2,746,419x)
+            .           
+   97,306,520 ( 0.45%)              o if o == Opcode::SLoad as usize =>{ s_load(&mut um, rc, rb, ra) }
+2,628,780,198 (12.19%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_load (19,461,304x)
+            .           
+   81,003,740 ( 0.38%)              o if o == Opcode::SStore as usize =>{ s_store(&mut um, rc, rb, ra) }
+2,447,701,574 (11.35%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_store (16,200,748x)
+            .           
+   15,705,200 ( 0.07%)              o if o == Opcode::Add as usize =>{ add(&mut um, rc, rb, ra) }
+   40,833,520 ( 0.19%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::add (3,141,040x)
+            .           
+      524,575 ( 0.00%)              o if o == Opcode::Mul as usize =>{ mul(&mut um, rc, rb, ra) }
+    1,363,895 ( 0.01%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::mul (104,915x)
+            .           
+      851,680 ( 0.00%)              o if o == Opcode::Div as usize =>{ div(&mut um, rc, rb, ra) }
+    2,895,712 ( 0.01%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::div (170,336x)
+            .           
+   21,479,450 ( 0.10%)              o if o == Opcode::BNAND as usize => { nand(&mut um, rc, rb, ra) }
+   60,142,460 ( 0.28%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::nand (4,295,890x)
+            .           
+            2 ( 0.00%)              o if o == Opcode::HALT as usize => { exit(0) }
+        2,246 ( 0.00%)  => /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/process.rs:std::process::exit (1x)
+            .           
+    5,659,336 ( 0.03%)              o if o == Opcode::MapSeg as usize => { map(&mut um, rc, rb) }
+  962,724,219 ( 4.46%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::map (1,414,834x)
+            .           
+    5,640,180 ( 0.03%)              o if o == Opcode::UnMapSeg as usize => { un_map(&mut um, rc) }
+  424,679,686 ( 1.97%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::un_map (1,410,045x)
+            .           
+          724 ( 0.00%)              o if o == Opcode::Out as usize => { output_val(&um, rc) }
+       58,293 ( 0.00%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::output_val (181x)
+            .           
+            .                       o if o == Opcode::In as usize => { input_val(&mut um, rc) }            
+            .           
+   14,284,436 ( 0.07%)              o if o == Opcode::Lp as usize => { jump(&mut um, rc, rb) }
+   78,564,398 ( 0.36%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::jump (3,571,109x)
+            .           
+   97,661,100 ( 0.45%)              o if o == Opcode::Lv as usize => { loadv(&mut um, rl, vl) }
+  227,875,900 ( 1.06%)  => /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::loadv (32,553,700x)
+            .           
+            .                       _ => { panic!("Wrong instruction!") }
+            .                   }
+            .               }    
+            .           }
+  938,522,162 ( 4.35%)  <counts for unidentified lines in src/main.rs>
+
+--------------------------------------------------------------------------------
+The following files chosen for auto-annotation could not be found:
+--------------------------------------------------------------------------------
+  ./malloc/./malloc/malloc.c
+  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs
+  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/bitmask.rs
+  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/alloc/src/alloc.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/../../stdarch/crates/core_arch/src/x86/sse2.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/cmp.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/mod.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/intrinsics.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/option.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/ptr/mut_ptr.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/slice/index.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs
+  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/sys/unix/alloc.rs
+
+--------------------------------------------------------------------------------
+Ir                     
+--------------------------------------------------------------------------------
+5,833,164,228 (27.05%)  events annotated
+
