@@ -24,20 +24,21 @@ Ir
 Ir                      file:function
 --------------------------------------------------------------------------------
 
-5,513,660,744 (25.57%)  *  src/main.rs:rum::main [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
-2,628,780,198 (12.19%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_load (19,461,304x)
-2,447,701,574 (11.35%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_store (16,200,748x)
-  962,724,219 ( 4.46%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::map (1,414,834x)
-  424,679,686 ( 1.97%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::un_map (1,410,045x)
-  227,875,900 ( 1.06%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::loadv (32,553,700x)
-   78,564,398 ( 0.36%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::jump (3,571,109x)
-   60,142,460 ( 0.28%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::nand (4,295,890x)
-   40,833,520 ( 0.19%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::add (3,141,040x)
-   36,744,732 ( 0.17%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::c_mov (2,746,419x)
-    2,895,712 ( 0.01%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::div (170,336x)
-    1,363,895 ( 0.01%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::mul (104,915x)
-      213,161 ( 0.00%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumload.rs:rum::rumload::load (1x)
-       58,293 ( 0.00%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::output_val (181x)
+21,561,341,971 (100.0%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/ops/function.rs:std::sys_common::backtrace::__rust_begin_short_backtrace (1x)
+5,513,660,744 (25.57%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+2,628,780,198 (12.19%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_load (19,461,304x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+2,447,701,574 (11.35%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_store (16,200,748x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  962,724,219 ( 4.46%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::map (1,414,834x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  424,679,686 ( 1.97%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::un_map (1,410,045x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  227,875,900 ( 1.06%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::loadv (32,553,700x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   78,564,398 ( 0.36%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::jump (3,571,109x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   60,142,460 ( 0.28%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::nand (4,295,890x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   40,833,520 ( 0.19%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::add (3,141,040x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   36,744,732 ( 0.17%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::c_mov (2,746,419x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+    2,895,712 ( 0.01%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::div (170,336x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+    1,363,895 ( 0.01%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::mul (104,915x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+      213,161 ( 0.00%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumload.rs:rum::rumload::load (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+       58,293 ( 0.00%)  >   /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::output_val (181x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
         2,246 ( 0.00%)  >   /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/process.rs:std::process::exit (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
           632 ( 0.00%)  >   /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/env.rs:std::env::args (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
           500 ( 0.00%)  >   /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:<std::collections::hash::map::HashMap<K,V> as core::convert::From<[(K,V); N]>>::from (1x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
@@ -54,7 +55,8 @@ Ir                      file:function
 
   544,916,512 ( 2.53%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:rum::rumops::s_load
 
-  486,532,600 ( 2.26%)  *  src/rumops.rs:rum::rumops::s_load [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+2,628,780,198 (12.19%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (19,461,304x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  486,532,600 ( 2.26%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_load [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
   453,620,944 ( 2.10%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/sip.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
 
@@ -62,7 +64,8 @@ Ir                      file:function
 
   425,352,610 ( 1.97%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/bitmask.rs:rum::main
 
-  421,219,448 ( 1.95%)  *  src/rumops.rs:rum::rumops::s_store [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+2,447,701,574 (11.35%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (16,200,748x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  421,219,448 ( 1.95%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::s_store [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
   350,792,034 ( 1.63%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/raw/mod.rs:rum::rumops::s_load
 
@@ -77,7 +80,8 @@ Ir                      file:function
           125 ( 0.00%)  >   ./malloc/./malloc/malloc.c:systrim.constprop.0 (5x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
           101 ( 0.00%)  >   ./malloc/./malloc/malloc.c:unlink_chunk.constprop.0 (3x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
 
-  227,875,900 ( 1.06%)  *  src/rumops.rs:rum::rumops::loadv [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  227,875,900 ( 1.06%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (32,553,700x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  227,875,900 ( 1.06%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::loadv [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
 1,945,478,386 ( 9.02%)  < /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/collections/hash/map.rs:rum::rumops::s_store (16,200,748x)
   227,085,982 ( 1.05%)  *  /cargo/registry/src/github.com-1ecc6299db9ec823/hashbrown-0.12.3/src/map.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
@@ -115,7 +119,8 @@ Ir                      file:function
 
    81,003,740 ( 0.38%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/mod.rs:hashbrown::map::HashMap<K,V,S,A>::get_mut
 
-   78,564,398 ( 0.36%)  *  src/rumops.rs:rum::rumops::jump [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   78,564,398 ( 0.36%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (3,571,109x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   78,564,398 ( 0.36%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::jump [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
    66,066,058 ( 0.31%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/num/uint_macros.rs:hashbrown::map::HashMap<K,V,S,A>::remove
 
@@ -129,7 +134,8 @@ Ir                      file:function
   238,273,292 ( 1.11%)  >   ./malloc/./malloc/malloc.c:_int_free (2,803,858x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
           105 ( 0.00%)  >   ./malloc/./malloc/malloc.c:munmap_chunk (3x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
 
-   60,142,460 ( 0.28%)  *  src/rumops.rs:rum::rumops::nand [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   60,142,460 ( 0.28%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (4,295,890x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   60,142,460 ( 0.28%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::nand [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
    58,383,912 ( 0.27%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/hash/mod.rs:rum::rumops::s_load
 
@@ -152,9 +158,11 @@ Ir                      file:function
 
    38,922,608 ( 0.18%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/slice/index.rs:rum::rumops::s_load
 
-   37,692,480 ( 0.17%)  *  src/rumops.rs:rum::rumops::add [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   40,833,520 ( 0.19%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (3,141,040x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   37,692,480 ( 0.17%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::add [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
-   36,744,732 ( 0.17%)  *  src/rumops.rs:rum::rumops::c_mov [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   36,744,732 ( 0.17%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (2,746,419x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   36,744,732 ( 0.17%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::c_mov [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
    32,553,714 ( 0.15%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/alloc/src/alloc.rs:rum::main
           273 ( 0.00%)  >   ???:__rust_dealloc (3x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
@@ -167,7 +175,8 @@ Ir                      file:function
   457,592,691 ( 2.12%)  >   ???:__rust_alloc_zeroed (2,808,620x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
   156,050,072 ( 0.72%)  >   ???:__rust_dealloc (1,393,786x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
-   29,858,850 ( 0.14%)  *  src/rumops.rs:rum::rumops::map [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+  962,724,219 ( 4.46%)  < /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs:rum::main (1,414,834x) [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
+   29,858,850 ( 0.14%)  *  /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs:rum::rumops::map [/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/target/release/rum]
 
    28,086,200 ( 0.13%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/std/src/sys/unix/alloc.rs:__rdl_alloc_zeroed
   415,463,391 ( 1.93%)  >   ./malloc/./malloc/malloc.c:calloc (2,808,620x) [/usr/lib/x86_64-linux-gnu/libc.so.6]
@@ -191,8 +200,15 @@ Ir                      file:function
    15,537,261 ( 0.07%)  *  /rustc/a55dd71d5fb0ec5a6a3a9e8c27b2127ba491ce52/library/core/src/../../stdarch/crates/core_arch/src/x86/sse2.rs:hashbrown::map::HashMap<K,V,S,A>::remove
 
 --------------------------------------------------------------------------------
--- Auto-annotated source: src/rumops.rs
+-- Auto-annotated source: /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs
 --------------------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ WARNING @@ WARNING @@ WARNING @@ WARNING @@ WARNING @@ WARNING @@ WARNING @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ Source file '/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs' is more recent than input file 'callgrind.out.3993'.
+@ Annotations may not be correct.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 Ir                   
 
           .           use std::io::{stdout, Write, stdin, Read};
@@ -301,11 +317,18 @@ Ir
  65,107,400 ( 0.30%)  pub fn loadv(um: &mut Machine, rl: usize, vl: usize){
  97,661,100 ( 0.45%)      um.registers[rl] = vl as u32;
  65,107,400 ( 0.30%)  }
-140,274,586 ( 0.65%)  <counts for unidentified lines in src/rumops.rs>
+140,274,586 ( 0.65%)  <counts for unidentified lines in /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/rumops.rs>
 
 --------------------------------------------------------------------------------
--- Auto-annotated source: src/main.rs
+-- Auto-annotated source: /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs
 --------------------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ WARNING @@ WARNING @@ WARNING @@ WARNING @@ WARNING @@ WARNING @@ WARNING @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ Source file '/mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs' is more recent than input file 'callgrind.out.3993'.
+@ Annotations may not be correct.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 Ir                     
 
             .           use std::{env, collections::HashMap, process::exit};
@@ -407,7 +430,7 @@ Ir
             .                   }
             .               }    
             .           }
-  938,522,162 ( 4.35%)  <counts for unidentified lines in src/main.rs>
+  938,522,162 ( 4.35%)  <counts for unidentified lines in /mnt/c/Users/ayman/OneDrive/Desktop/csc411/code/rum/src/main.rs>
 
 --------------------------------------------------------------------------------
 The following files chosen for auto-annotation could not be found:
